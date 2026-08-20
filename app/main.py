@@ -1,8 +1,8 @@
 import flet as ft
 
-from screens.login import login_screen
-from screens.dashboard import dashboard_screen
-from screens.comparar import comparar_screen
+from app.screens.login import login_screen
+from app.screens.dashboard import dashboard_screen
+from app.screens.comparar import comparar_screen
 
 
 def main(page: ft.Page):
